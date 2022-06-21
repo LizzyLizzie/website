@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WEBPAGE DESIGN</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            width: 100%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(Capture_main.PNG);
+            background-position: center;
+            background-size: cover;
+            height: 110vh;
+        }
+
+        .navbar {
+            width: 1200px;
+            height: 75px;
+            margin: none;
+
+        }
+
+        .icon {
+            width: 200px;
+            float: left;
+            height: 70px;
+        }
+
+        .logo {
+            color: red;
+            font-size: 35px;
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 10px;
+            padding-top: none;
+            float: left;
+        }
+
+        .menu {
+            width: 400px;
+            float: left;
+            height: 70px;
+        }
+
+        ul {
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul li {
+            list-style: none;
+            margin-left: 62px;
+            margin-top: 27px;
+            font-size: 14px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            transition: o.5 ease-in-out;
+        }
+
+        ul li a:hover {
+            color: red;
+        }
+
+        .search {
+            width: 330px;
+            float: left;
+            margin-left: 270px;
+        }
+
+        .srch {
+            font-family: 'Times New Roman', Times, serif;
+            width: 200px;
+            height: 30px;
+            background: black;
+            border: 2px red;
+            margin-top: 33px;
+            color: white;
+            border-right: none;
+            font-size: bold;
+            float: left;
+            padding: 10px;
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+
+        .btn {
+            width: 100px;
+            height: 30px;
+            background: red;
+            border: 2px red;
+            margin-top: 33px;
+            color: white;
+            font-size: 15px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .btn:focus {
+            outline: none;
+        }
+
+        .srch:focus {
+            outline: none;
+        }
+
+        .content {
+            position: relative;
+            width: 1200;
+            height: auto;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            float: left;
+            margin-top: 40px;
+            margin-bottom: 100px;
+            margin-right: 150px;
+
+        }
+
+        .para {
+            color: white;
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .cn {
+            color: white;
+            background-color: red;
+            border: none;
+            border-radius: 7px;
+        }
+
+        .cn:hover {
+            background-color: white;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .form {
+            width: 250px;
+            height: 380px;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+            position: absolute;
+            top: -20px;
+            left: 870px;
+            border-radius: 10px;
+            padding: 25px;
+        }
+
+        .form h3 {
+            width: 220px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color: white;
+            font-size: 22px;
+            background-color: red;
+            border-radius: 10px;
+            margin: 2px;
+            padding: 8px;
+        }
+
+        .form input {
+            width: 240px;
+            height: 35px;
+            background: transparent;
+            border-bottom: 1px solid red;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            color: white;
+            font-size: 15px;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            font-family: sans-serif;
+        }
+
+        .form input:focus {
+            outline: none;
+        }
+
+        ::placeholder {
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .btnn {
+            width: 240px;
+            height: 40px;
+            background: red;
+            border: none;
+            margin-top: 30px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: white;
+            transition: 0.4s ease;
+        }
+
+        .btnn:hover {
+            background: white;
+            color: white;
+        }
+
+        .btnn a {
+            color: blue;
+        }
+
+        .form .link {
+            text-align: center;
+        }
+
+        .liw {
+            text-align: center;
+        }
+
+        .footer {
+            font-family: sans-serif;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+            height: 20vh;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">DEWCODE Q & A</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="HOME.html">HOME</a>
+
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="service.html">SERVICES</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="name" placeholder="Type To text">
+                <a href="#"><button class="btn">Search</button></a>
+            </div>
+        </div>
+        <div class="content">
+            <h2>
+                <b>Breaking<br />
+                    The World<br />
+                    of Codes
+                </b>
+            </h2>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam <br />tempore, sed harum
+                ducimus
+                non obcaecati nam magnam autem<br /> deleniti odio, delectus similique amet soluta itaque quas
+                saepe<br />
+                inventore, cumque minus!
+            </p>
+            <div class="form">
+                <h3>Login Here</h3>
+                <input type="email" name="email" placeholder="Enter Email">
+                <input type="password" name="" placeholder="Enter Password">
+                <button class="btnn"><a href="#">Login</a></button>
+
+                <p class="link">
+                    <marquee direction="right">Don't Have an Account</marquee><br>
+                    <a href="#"><b>Signup</b></a>
+                </p>
+                <p class="liw">Login with</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div>
+            <h6>For more information contact us on our telephone number or our social media platforms</h6>
+        </div>
+    </footer>
+</body>
+
+</html>
